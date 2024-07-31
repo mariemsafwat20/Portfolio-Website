@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.css'
 })
-export class PortfolioComponent {
 
+export class PortfolioComponent {
+  boxes: number[] = [1, 2, 3, 4];
+
+  HeptaWeb: string = 'https://github.com/mariemsafwat20/Hepta-Website'
+  
 }

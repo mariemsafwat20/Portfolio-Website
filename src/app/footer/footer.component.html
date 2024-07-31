@@ -1,0 +1,38 @@
+<footer class="footer-section mt-5 ">
+    <div class="row ">
+        <h1 class="text-center mt-5 h1Footer">Contact Me</h1>
+
+        <div class="col-6 p-5 text-center mt-5">
+            <h3 class="personalInfo">Phone Number:</h3>
+            <p>{{ phoneNumber }}</p>
+
+            <h3 class="mt-4 personalInfo">Email:</h3>
+            <a [href]="'mailto:' + email">{{ email }}</a>
+
+            <h3 class="mt-4 personalInfo">Location:</h3>
+            <p>{{ location }}</p>
+        </div>
+
+        <div class="col-6 icons mt-5">
+            <p class="mb-2">Follow me:</p>
+
+            <div class="social-media">
+                <a [href]="facebookUrl" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a [href]="linkedinUrl" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a [href]="githubUrl" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="text-center copyRight mt-5 pb-3">
+        <p class="mt-4">Copyright © 2024 Portfolio &amp; CV | Powered by Portfolio &amp; CV</p>
+    </div>
+</footer>

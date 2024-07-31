@@ -1,0 +1,43 @@
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section{
+    background-color: #007aaa;
+    color: white;
+    position: relative;
+}
+
+.h1Footer::after{
+    border-bottom: 1px solid #972929;
+    width: 5%;
+    content: "";
+    top: 8%;
+    left: 47%;
+    position: absolute;
+    height: 61px;
+}
+
+.personalInfo, .icons p{
+    font-size: 35px;
+}
+
+.icons{
+    padding-top: 7%;
+}
+
+.icons i{
+    margin-right: 20px;
+    font-size: 25px;
+    transition: all 0.2s;
+}
+
+.icons i:hover{
+    color: rgb(169, 174, 181);
+}
+
+.copyRight{
+    border-top: 1px solid white;
+}

@@ -1,0 +1,29 @@
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio{
+    background-color: white;
+}
+
+.box {
+    background-color: rgb(99, 131, 179);
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.box:hover{
+    background-color: white;
+}
+
+.box a:hover{
+    color: rgb(99, 131, 179);;
+}
