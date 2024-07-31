@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './hero-section.component.css'
 })
 export class HeroSectionComponent {
-
+  imgPath:string = 'assets/imgs/heroImg.jpg';
+  name:string = 'mariam'
 }
